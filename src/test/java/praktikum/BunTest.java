@@ -14,7 +14,7 @@ public class BunTest {
     Float price;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         Faker faker = new Faker();
         testName = faker.funnyName().name();
         Random r = new Random();

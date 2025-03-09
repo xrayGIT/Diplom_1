@@ -1,7 +1,6 @@
 package praktikum;
 
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,8 +10,6 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.junit.Assert.*;
 
-//в этих тестах нужен будет мок
-// стаба на ингридиенты?
 @RunWith(MockitoJUnitRunner.class)
 public class BurgerTest {
     Burger burger;
@@ -26,12 +23,12 @@ public class BurgerTest {
     Ingredient ingredient2;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         burger = new Burger();
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown() {
     }
 
     @Test

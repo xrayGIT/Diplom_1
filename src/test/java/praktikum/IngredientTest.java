@@ -29,7 +29,7 @@ public class IngredientTest {
     }
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         ingredient = new Ingredient(ingredientType, ingredientName, price);
     }
 
