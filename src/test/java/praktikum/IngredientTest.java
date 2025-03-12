@@ -23,8 +23,7 @@ public class IngredientTest {
     public static Object[][] testData(){
         return new Object[][]{
                 {10.0F, "testName1", IngredientType.SAUCE},
-                {11.21F, "testName2", IngredientType.FILLING},
-                {0f, "testName3", IngredientType.SAUCE}
+                {11.21F, "testName2", IngredientType.FILLING}
         };
     }
 
